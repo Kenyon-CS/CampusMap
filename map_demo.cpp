@@ -13,11 +13,11 @@ void queryDepartment(const map<string, string>& campusMap);
 int main() {
     // Create a map from departments to buildings
     map<string, string> campusMap = {
-        {"Mathematics", "Ransom Hall"},
-        {"Computer Science", "Sam Mather Hall"},
-        {"Biology", "Olin Science Center"},
-        {"Physics", "Hunt Hall"},
-        {"Chemistry", "Hunt Hall"}
+        {"Mathematics", "Hayes 3rd Floor"},
+        {"Computing", "Chalmers 4th FLoor"},
+        {"Biology", "Higley Hall"},
+        {"Physics", "Hayes 0-2 floor"},
+        {"Chemistry", "Tomsich Hall"}
     };
 
     int choice;
